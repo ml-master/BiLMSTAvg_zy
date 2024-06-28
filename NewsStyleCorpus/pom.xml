@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>my-project</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>my-project</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <!-- Apache Commons Lang3 -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.8.1</version> <!-- Use the latest version -->
+    </dependency>
+
+    <!-- JSoup -->
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.14.3</version> <!-- Use the latest version -->
+    </dependency>
+
+    <!-- Other dependencies -->
+    <dependency>org.apache.commons.lang3.tuple.Pair</dependency>
+    <dependency>org.jsoup.Connection</dependency>
+    <dependency>org.jsoup.HttpStatusException</dependency>
+    <dependency>org.jsoup.Jsoup</dependency>
+    <dependency>org.jsoup.Connection.Response</dependency>
+    <dependency>org.jsoup.nodes.Document</dependency>
+    <dependency>org.jsoup.nodes.Element</dependency>
+    <dependency>org.jsoup.nodes.Node</dependency>
+    <dependency>org.jsoup.nodes.TextNode</dependency>
+    <dependency>org.jsoup.select.Elements</dependency>
+    <dependency>org.zeroturnaround.zip.ZipUtil</dependency>
+    <dependency>org.zeroturnaround.zip.commons.FileUtils</dependency>
+  </dependencies>
+</project>
